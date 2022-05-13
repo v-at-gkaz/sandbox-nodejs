@@ -1,5 +1,11 @@
 # HowTo Test?
 
+## Step 0
+
+If need cleanup:
+
+`npm run cleanup`
+
 ## Step 1
 
 `npm install`
