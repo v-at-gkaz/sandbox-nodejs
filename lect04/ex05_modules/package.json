@@ -1,0 +1,19 @@
+{
+  "name": "ex04_async",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "cleanup": "rm ./index.js ./my_modules/square/index.js;rm -r ./node_modules",
+    "start": "node ./index.js",
+    "start-ts-node": "ts-node ./index.ts",
+    "build": "tsc",
+    "watch": "./node_modules/nodemon/bin/nodemon.js ./index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
