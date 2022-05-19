@@ -8,7 +8,7 @@
     "cleanup": "rm ./index.js ./my_modules/square/index.js;rm -r ./node_modules",
     "start": "node ./index.js",
     "start-ts-node": "ts-node ./index.ts",
-    "build": "tsc",
+    "build": "tsc; sed -i 's/index/index.js/g' index.js",
     "watch": "./node_modules/nodemon/bin/nodemon.js ./index.ts"
   },
   "author": "",
